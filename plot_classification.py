@@ -24,7 +24,6 @@ X = iris.data[:, :2]
 y = iris.target
 
 h = .02  # step size in the mesh
-
 # Create color maps
 cmap_light = ListedColormap(['#FFAAAA', '#AAFFAA', '#AAAAFF'])
 cmap_bold = ListedColormap(['#FF0000', '#00FF00', '#0000FF'])
